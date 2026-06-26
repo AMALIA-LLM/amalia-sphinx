@@ -10,3 +10,10 @@ pip install sphinx-autobuild
 pip install sphinx-book-theme
 pip install sphinx-copybutton
 ````
+
+To rebuild the ``source`` files into the deployed ``build`` folder, run:
+
+````shell
+make clean
+make html
+````
